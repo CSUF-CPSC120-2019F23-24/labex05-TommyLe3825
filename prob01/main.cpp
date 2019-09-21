@@ -28,7 +28,7 @@ int main()
   f2 *= 0.01;
 
   // TODO#1 add comment describing what's happening
-  std::cout << "\n**comment**" << std::endl;
+  std::cout << "\nBoth d2 and f2 are now getting different values from each other" << std::endl;
   std::cout << sizeof(d2) << " bytes, value: " << d2 << std::endl;
   std::cout << sizeof(f2) << " bytes, value: " << f2 << std::endl;
 
@@ -36,7 +36,7 @@ int main()
   f2 *= 0.1;
 
   // TODO#2 add comment describing what's happening
-  std::cout << "\n**comment**" << std::endl;
+  std::cout << "\nd2 continues to increase while f2 has become all 0" << std::endl;
   std::cout << sizeof(d2) << " bytes, value: " << d2 << std::endl;
   std::cout << sizeof(f2) << " bytes, value: " << f2 << std::endl;
 
@@ -44,10 +44,10 @@ int main()
   float f3 = 3.5E38;
 
   // TODO#3 add comment describing what happened
-  std::cout << "\n**comment**" << std::endl;
+  std::cout << "\nBoth d3 and f2 are maxed out" << std::endl;
   std::cout << std::setprecision(1);
   std::cout << sizeof(d3) << " bytes, value: " << d3 << std::endl;
-  std::cout << sizeof(f2) << " bytes, value: " << f3 << std::endl;
+  std::cout << sizeof(f3) << " bytes, value: " << f3 << std::endl;
 
   return 0;
 }
