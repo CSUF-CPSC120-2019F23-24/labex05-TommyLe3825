@@ -21,6 +21,5 @@ int main ()
   std::cout<< sign << std::endl; // the height is 3 so there is 3 cout
   std::cout<< sign << std::endl;
 
-
   return 0;
 }
