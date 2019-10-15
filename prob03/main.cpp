@@ -9,8 +9,8 @@ int main ()
   const int MAX = 40; //the maximum for length/base of rectangle
   const int HEIGHT = 3; // the constant height
   double length; //random length
-  unsigned hope = time (0); //time is very random
-  srand (hope);
+  unsigned hope = time(0); //time is very random
+  srand(hope);
 
   length = rand() % MAX + 1; //it creates a random length
 
